@@ -43,8 +43,13 @@ Item {
     }
 
     Image {
-        source: "wallpaper.png"
-        anchors.centerIn: parent
+        source: "noiselight.png"
+        fillMode: Image.Tile
+        anchors.fill: parent
+    }
+    Image {
+        source: "gradient.png"
+        anchors.fill: parent
     }
 
     MouseArea {
@@ -102,26 +107,12 @@ Item {
         }
 
         Text {
-            text: clockTimer.time
-            font.pixelSize: 75
-            font.family: theme.font.family
-            font.bold: theme.font.bold
-            color: Qt.rgba(0, 0, 0, 0)
-            style: Text.Sunken
-            styleColor: Qt.rgba(0, 0, 0, 0.5)
-            anchors.horizontalCenter: parent.horizontalCenter
-            y: 100
-        }
-
-        Text {
             id: timeText
             text: clockTimer.time
             font.pixelSize: 75
             font.family: theme.font.family
             font.bold: theme.font.bold
-            color: Qt.rgba(0, 0, 0, 0.05)
-            style: Text.Raised
-            styleColor: Qt.rgba(1, 1, 1, 0.8)
+            color: Qt.rgba(1, 1, 1, 0.6)
             anchors.horizontalCenter: parent.horizontalCenter
             y: 100
         }
@@ -187,6 +178,8 @@ Item {
             Text {
                 id: sleepText
                 text: i18n("Sleep")
+                color: "white"
+                opacity: 0.6
                 anchors.horizontalCenter: parent.horizontalCenter
                 anchors.bottom: parent.top
             }
@@ -254,6 +247,8 @@ Item {
             Text {
                 id: shutdownText
                 text: i18n("Shutdown")
+                color: "white"
+                opacity: 0.6
                 //anchors.top: parent.bottom
                 anchors.bottom: shutdownSlider.top
                 anchors.horizontalCenter: shutdownSlider.horizontalCenter

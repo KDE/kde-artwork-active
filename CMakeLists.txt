@@ -16,29 +16,15 @@ install(FILES splash/main.qml
               splash/Theme.rc
         DESTINATION ${DATA_INSTALL_DIR}/ksplash/Themes/ActiveAir)
 
-install(FILES splash/${SCREEN_RESOLUTION}/active-logo-1.png
-              splash/${SCREEN_RESOLUTION}/active-logo-2.png
-              splash/${SCREEN_RESOLUTION}/active-logo-3.png
-              splash/${SCREEN_RESOLUTION}/background.png
-              splash/${SCREEN_RESOLUTION}/bottomleft-smallvine-3.png
-              splash/${SCREEN_RESOLUTION}/bottomleft-vine-1.png
-              splash/${SCREEN_RESOLUTION}/bottomleft-vine-2.png
-              splash/${SCREEN_RESOLUTION}/bottomleft-vine-3.png
-              splash/${SCREEN_RESOLUTION}/bottomleft-vine-4.png
-              splash/${SCREEN_RESOLUTION}/bottomleft-vine-5.png
-              splash/${SCREEN_RESOLUTION}/spinner.png
-              splash/${SCREEN_RESOLUTION}/topright-vine-2.png
-              splash/${SCREEN_RESOLUTION}/topright-vine-3.png
-              splash/${SCREEN_RESOLUTION}/topright-vine-4.png
-        DESTINATION ${DATA_INSTALL_DIR}/ksplash/Themes/ActiveAir/images)
+install(DIRECTORY splash/images
+        DESTINATION ${DATA_INSTALL_DIR}/ksplash/Themes/ActiveAir/)
 
 # Lockscreen
 install(DIRECTORY lockscreen/contents
         DESTINATION ${DATA_INSTALL_DIR}/ksmserver/screenlocker/org.kde.active.slide/ PATTERN .svn EXCLUDE)
 install(FILES lockscreen/metadata.desktop
         DESTINATION ${DATA_INSTALL_DIR}/ksmserver/screenlocker/org.kde.active.slide/)
-install(FILES lockscreen/${SCREEN_RESOLUTION}/wallpaper.png
-        DESTINATION ${DATA_INSTALL_DIR}/ksmserver/screenlocker/org.kde.active.slide/contents/ui)
+
 
 install(FILES
             wallpaper/${SCREEN_RESOLUTION}/Orchid.jpg
