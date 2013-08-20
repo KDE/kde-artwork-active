@@ -1,0 +1,9 @@
+[KSplash Theme: ActiveAir]
+Name = Active Air Splash Screen
+Description = Splash Screen for tablet devices
+Version = 1.0
+Author = Marco Martin <notmart@gmail.com>
+Homepage = http://www.kde.org
+
+# Theme behaviour settings.
+Engine = KSplashQML
