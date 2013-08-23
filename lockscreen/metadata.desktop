@@ -1,22 +1,6 @@
 [Desktop Entry]
 Name=Slide dialog
-Name[et]=Liugurdialoog
-Name[gl]=Deslizar o diálogo
-Name[nl]=Dia-dialoog
-Name[pt]=Janela deslizante
-Name[pt_BR]=Janela deslizante
-Name[sv]=Glidande dialogruta
-Name[uk]=Розблокування ковзними рухами
-Name[x-test]=xxSlide dialogxx
 Comment=Screen locker that provides sliding button to unlock, optimized for touch screens
-Comment[et]=Ekraani lukustaja, mis võimaldab lukustuse eemaldada puuteekraanidele optimeeritud liugnupuga
-Comment[gl]=Un bloqueador de pantalla que ofrece un botón de esvarar para o desbloqueo, optimizado para as pantallas táctiles
-Comment[nl]=Schermvergrendelaar die een schuifknop levert voor het ontgrendelen, geoptimaliseerd voor aanraakschermen
-Comment[pt]=Um bloqueio do ecrã que oferece um botão deslizante para desbloquear, o que está optimizado para ecrãs tácteis
-Comment[pt_BR]=Um bloqueador de tela que oferece um botão deslizante para desbloquear, sendo otimizado para touch screens
-Comment[sv]=Skärmlåsning som tillhandahåller glidande knapp för att läsa upp, optimerad för pekskärmar
-Comment[uk]=Блокувальник екрана, у якому передбачено кнопку для розблокування, якою зручно користуватися на сенсорних екранах
-Comment[x-test]=xxScreen locker that provides sliding button to unlock, optimized for touch screensxx
 Icon=system-lock-screen
 
 X-Plasma-MainScript=ui/main.qml
