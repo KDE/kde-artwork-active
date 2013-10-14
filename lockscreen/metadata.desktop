@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Slide dialog
+Name[fr]=Boîte de dialogue pour le curseur
 Name[hu]=Dia párbeszédablak
 Name[nl]=Dia-dialoog
 Name[pt]=Janela deslizante
@@ -9,6 +10,7 @@ Name[sv]=Glidande dialogruta
 Name[uk]=Ковзне діалогове вікно
 Name[x-test]=xxSlide dialogxx
 Comment=Screen locker that provides sliding button to unlock, optimized for touch screens
+Comment[fr]=L'outil de verrouillage d'écran fournissant un bouton de curseur pour le déverrouillage et optimisé pour les écrans tactiles
 Comment[hu]=Képernyőzároló, amely elhúzható gombokat szolgáltat a feloldáshoz az érintőképernyőkhöz optimalizálva
 Comment[nl]=Schermvergrendelaar die een schuifknop levert voor het ontgrendelen, geoptimaliseerd voor aanraakschermen
 Comment[pt]=Um bloqueio do ecrã que oferece um botão deslizante para desbloquear, o que está optimizado para ecrãs tácteis
