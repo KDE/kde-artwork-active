@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Slide dialog
+Name[ca]=Diàleg lliscant
 Name[de]=Schiebedialog
 Name[fr]=Boîte de dialogue pour le curseur
 Name[gl]=Diálogo deslizante
@@ -13,6 +14,7 @@ Name[tr]=Kaydırma penceresi
 Name[uk]=Ковзне діалогове вікно
 Name[x-test]=xxSlide dialogxx
 Comment=Screen locker that provides sliding button to unlock, optimized for touch screens
+Comment[ca]=Bloquejador de pantalla que proporciona el botó de control lliscant per desbloquejar, optimitzat per a les pantalles tàctils
 Comment[de]=Bildschirmsperre, mit einem Schiebeknopf zum Entsperren. Optimiert für Touch-Screens
 Comment[fr]=L'outil de verrouillage d'écran fournissant un bouton de curseur pour le déverrouillage et optimisé pour les écrans tactiles
 Comment[gl]=Un bloqueador de sesión  que fornece un botón deslizante para  desatrancar, optimizado para pantallas táctiles
